@@ -1,18 +1,24 @@
+@import '../_colors.scss';
+
 .revenue-container {
     width: 70vw;
     height: 500px;
-    background: black;
+    background: $sections;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    border-radius: 5px;
 }
 
 .revenue-header {
-    width: 65vw;
+    width: 70vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: $headers;
+    padding: 0px 30px 0px 30px;
+    border-radius: 5px 5px 0px 0px;
     h3 {
         color: white;
         font-weight: normal;
@@ -26,22 +32,22 @@
     align-items: center;
     p {
         margin: 0;
-        color: white;
+        color: $text;
         font-size: 10pt;
     }
     input {
-        border: solid 1px white;
+        border: solid 1px $text;
         background: none;
         width: 130px;
         height: 25px;
         border-radius: 3px;
         outline: none;
-        color: white;
+        color: $text;
         font-size: 10pt;
     }
 }
 
-.revenue-menu {
+.revenue-three-dot-menu {
     width: 25px;
     height: 25px;
     display: flex;
@@ -52,6 +58,6 @@
         width: 5px;
         height: 5px;
         border-radius: 12pc;
-        background: white;
+        background: $text;
     }
 }

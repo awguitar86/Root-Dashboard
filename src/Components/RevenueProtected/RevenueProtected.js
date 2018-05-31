@@ -6,13 +6,13 @@ export default class RevenueProtected extends Component {
         return (
             <div className='revenue-container'>
                 <div className='revenue-header'>
-                    <h3>Revenue</h3>
+                    <h3>Revenue Protected</h3>
                     <div className='revenue-date-range'>
                         <p>From</p>
                         <input />
                         <p>To</p>
                         <input />
-                        <div className='revenue-menu'>
+                        <div className='revenue-three-dot-menu'>
                             <div></div>
                             <div></div>
                             <div></div>

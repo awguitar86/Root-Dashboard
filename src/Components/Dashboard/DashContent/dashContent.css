@@ -2,7 +2,10 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  background: #1A1E37; }
   .dashboard-content h2 {
     width: 70vw;
-    display: flex; }
+    display: flex;
+    color: white;
+    font-weight: normal; }

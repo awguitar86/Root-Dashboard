@@ -1,17 +1,21 @@
 .revenue-container {
   width: 70vw;
   height: 500px;
-  background: black;
+  background: #262C46;
   border-radius: 5px;
   display: flex;
   justify-content: center;
-  align-items: flex-start; }
+  align-items: flex-start;
+  border-radius: 5px; }
 
 .revenue-header {
-  width: 65vw;
+  width: 70vw;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  background: #303757;
+  padding: 0px 30px 0px 30px;
+  border-radius: 5px 5px 0px 0px; }
   .revenue-header h3 {
     color: white;
     font-weight: normal; }
@@ -23,26 +27,26 @@
   align-items: center; }
   .revenue-date-range p {
     margin: 0;
-    color: white;
+    color: #9799A8;
     font-size: 10pt; }
   .revenue-date-range input {
-    border: solid 1px white;
+    border: solid 1px #9799A8;
     background: none;
     width: 130px;
     height: 25px;
     border-radius: 3px;
     outline: none;
-    color: white;
+    color: #9799A8;
     font-size: 10pt; }
 
-.revenue-menu {
+.revenue-three-dot-menu {
   width: 25px;
   height: 25px;
   display: flex;
   align-items: center;
   justify-content: space-around; }
-  .revenue-menu div {
+  .revenue-three-dot-menu div {
     width: 5px;
     height: 5px;
     border-radius: 12pc;
-    background: white; }
+    background: #9799A8; }
