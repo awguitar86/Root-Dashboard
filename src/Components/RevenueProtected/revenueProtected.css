@@ -1,0 +1,48 @@
+.revenue-container {
+  width: 70vw;
+  height: 500px;
+  background: black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+.revenue-header {
+  width: 65vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .revenue-header h3 {
+    color: white;
+    font-weight: normal; }
+
+.revenue-date-range {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .revenue-date-range p {
+    margin: 0;
+    color: white;
+    font-size: 10pt; }
+  .revenue-date-range input {
+    border: solid 1px white;
+    background: none;
+    width: 130px;
+    height: 25px;
+    border-radius: 3px;
+    outline: none;
+    color: white;
+    font-size: 10pt; }
+
+.revenue-menu {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .revenue-menu div {
+    width: 5px;
+    height: 5px;
+    border-radius: 12pc;
+    background: white; }
