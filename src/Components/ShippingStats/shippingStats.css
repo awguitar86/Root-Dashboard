@@ -1,0 +1,76 @@
+.shipping-stats {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 40px; }
+
+.delivered {
+  color: white;
+  background-image: url("../../images/DeliveredBackground.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 18vw;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.out-for-delivery {
+  color: white;
+  background-image: url("../../images/OutForDeliveryBackground.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 18vw;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.in-transit {
+  color: white;
+  background-image: url("../../images/InTransitBackground.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 18vw;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.exception {
+  color: white;
+  background-image: url("../../images/ExceptionBackground.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 18vw;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.shipping-stats-headers {
+  width: 18vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 20px; }
+  .shipping-stats-headers h3 {
+    font-weight: normal; }
+  .shipping-stats-headers img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px; }
+
+.shipments {
+  width: 18vw; }

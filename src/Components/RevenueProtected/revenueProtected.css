@@ -1,5 +1,5 @@
 .revenue-container {
-  width: 70vw;
+  width: 80vw;
   height: 500px;
   background: #262C46;
   border-radius: 5px;
@@ -9,7 +9,7 @@
   border-radius: 5px; }
 
 .revenue-header {
-  width: 70vw;
+  width: 80vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +17,7 @@
   padding: 0px 30px 0px 30px;
   border-radius: 5px 5px 0px 0px; }
   .revenue-header h3 {
-    color: white;
+    color: #9799A8;
     font-weight: normal; }
 
 .revenue-date-range {

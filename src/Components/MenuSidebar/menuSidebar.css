@@ -4,10 +4,11 @@
   background: #262C46;
   display: flex;
   flex-direction: column;
-  align-content: center; }
+  align-content: center;
+  position: fixed; }
   .menu-sidebar a:hover {
-    border-right: solid 4px #445072;
-    transition: ease-in-out 0.2s; }
+    border-right: solid 5px #445072;
+    transition: ease-in-out 0.3s; }
 
 .menu-header {
   width: 200px;
