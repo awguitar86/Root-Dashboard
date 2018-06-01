@@ -2,12 +2,12 @@
 
 .revenue-container {
     width: 80vw;
-    height: 500px;
     background: $sections;
     border-radius: 5px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     border-radius: 5px;
 }
 
@@ -17,11 +17,11 @@
     justify-content: space-between;
     align-items: center;
     background: $headers;
-    padding: 0px 30px 0px 30px;
     border-radius: 5px 5px 0px 0px;
     h3 {
         color: $text;
         font-weight: normal;
+        margin-left: 30px;
     }
 }
 
@@ -30,6 +30,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 30px;
     p {
         margin: 0;
         color: $text;
@@ -61,3 +62,208 @@
         background: $text;
     }
 }
+
+.revenue-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.revenue-line-graph {
+    width: 45vw;
+    margin-right: 50px;
+}
+
+.graph-lines {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+        margin: 0;
+        color: $text;
+        font-size: 10pt;
+    }
+}
+
+.line {
+    width: 42vw;
+    height: 0px;
+    border: solid 0.5px $text;
+}
+
+.graph-months {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    p {
+        margin: 0;
+        color: $text;
+        font-size: 10pt;
+    }
+}
+.months {
+    display: flex;
+    justify-content: space-between;
+    width: 42vw;
+}
+
+.revenue-charts {
+    display: flex;
+    flex-direction: column;
+}
+
+.protected-transactions {
+    display: flex;
+    margin: 20px 0px 10px 0px;
+}
+
+.protected-circle-chart {
+    width: 120px;
+    height: 120px;
+    border-radius: 12pc;
+    border: solid 3px $background;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h3 {
+        margin: 0;
+        font-weight: normal;
+        color: white;
+        margin-bottom: 5px;
+    }
+    p {
+        margin: 0;
+        font-size: 9pt;
+        color: $text;
+    }
+}
+
+.protected-transaction-info {
+    width: 150px;
+    background: $background;
+    color: $text;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 30px;
+    hr {
+        width: 75px;
+        border: solid 1px $maps;
+    }
+}
+
+.total-transactions {
+    p {
+        margin: 0;
+        margin-bottom: 5px;
+        font-size: 10pt;
+    }
+    h3 {
+        margin: 0;
+        font-weight: normal;
+    }
+}
+
+.protected {
+    p {
+        margin: 0;
+        margin-bottom: 5px;
+        font-size: 10pt;
+    }
+    h3 {
+        margin: 0;
+        font-weight: normal;
+    }
+}
+
+.claim-approval {
+    display: flex;
+    margin: 10px 0px 20px 0px;
+}
+
+.claim-circle-chart {
+    width: 120px;
+    height: 120px;
+    border-radius: 12pc;
+    border: solid 3px $background;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h3 {
+        margin: 0;
+        font-weight: normal;
+        color: white;
+        margin-bottom: 5px;
+    }
+    p {
+        margin: 0;
+        font-size: 9pt;
+        color: $text;
+    }
+}
+
+.claim-approval-info {
+    background: $background;
+    color: $text;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.cai-left {
+    width: 150px;
+    color: $text;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    hr {
+        width: 75px;
+        border: solid 1px $maps;
+    }
+    p {
+        margin: 0;
+        margin-bottom: 5px;
+        font-size: 9pt;
+    }
+    h3 {
+        margin: 0;
+        font-weight: normal;
+    }
+}
+
+.claim-divider {
+    height: 80px;
+    border: solid 1px $maps;
+}
+
+.cai-right {
+    width: 150px;
+    color: $text;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    hr {
+        width: 75px;
+        border: solid 1px $maps;
+    }
+    p {
+        margin: 0;
+        margin-bottom: 5px;
+        font-size: 9pt;
+    }
+    h3 {
+        margin: 0;
+        font-weight: normal;
+    }
+}
+

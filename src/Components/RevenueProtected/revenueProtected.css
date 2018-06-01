@@ -1,11 +1,11 @@
 .revenue-container {
   width: 80vw;
-  height: 500px;
   background: #262C46;
   border-radius: 5px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   border-radius: 5px; }
 
 .revenue-header {
@@ -14,17 +14,18 @@
   justify-content: space-between;
   align-items: center;
   background: #303757;
-  padding: 0px 30px 0px 30px;
   border-radius: 5px 5px 0px 0px; }
   .revenue-header h3 {
     color: #9799A8;
-    font-weight: normal; }
+    font-weight: normal;
+    margin-left: 30px; }
 
 .revenue-date-range {
   width: 400px;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  margin-right: 30px; }
   .revenue-date-range p {
     margin: 0;
     color: #9799A8;
@@ -50,3 +51,173 @@
     height: 5px;
     border-radius: 12pc;
     background: #9799A8; }
+
+.revenue-body {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.revenue-line-graph {
+  width: 45vw;
+  margin-right: 50px; }
+
+.graph-lines {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .graph-lines p {
+    margin: 0;
+    color: #9799A8;
+    font-size: 10pt; }
+
+.line {
+  width: 42vw;
+  height: 0px;
+  border: solid 0.5px #9799A8; }
+
+.graph-months {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+  .graph-months p {
+    margin: 0;
+    color: #9799A8;
+    font-size: 10pt; }
+
+.months {
+  display: flex;
+  justify-content: space-between;
+  width: 42vw; }
+
+.revenue-charts {
+  display: flex;
+  flex-direction: column; }
+
+.protected-transactions {
+  display: flex;
+  margin: 20px 0px 10px 0px; }
+
+.protected-circle-chart {
+  width: 120px;
+  height: 120px;
+  border-radius: 12pc;
+  border: solid 3px #1A1E37;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .protected-circle-chart h3 {
+    margin: 0;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 5px; }
+  .protected-circle-chart p {
+    margin: 0;
+    font-size: 9pt;
+    color: #9799A8; }
+
+.protected-transaction-info {
+  width: 150px;
+  background: #1A1E37;
+  color: #9799A8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 30px; }
+  .protected-transaction-info hr {
+    width: 75px;
+    border: solid 1px #445072; }
+
+.total-transactions p {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 10pt; }
+
+.total-transactions h3 {
+  margin: 0;
+  font-weight: normal; }
+
+.protected p {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 10pt; }
+
+.protected h3 {
+  margin: 0;
+  font-weight: normal; }
+
+.claim-approval {
+  display: flex;
+  margin: 10px 0px 20px 0px; }
+
+.claim-circle-chart {
+  width: 120px;
+  height: 120px;
+  border-radius: 12pc;
+  border: solid 3px #1A1E37;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .claim-circle-chart h3 {
+    margin: 0;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 5px; }
+  .claim-circle-chart p {
+    margin: 0;
+    font-size: 9pt;
+    color: #9799A8; }
+
+.claim-approval-info {
+  background: #1A1E37;
+  color: #9799A8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: 30px; }
+
+.cai-left {
+  width: 150px;
+  color: #9799A8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .cai-left hr {
+    width: 75px;
+    border: solid 1px #445072; }
+  .cai-left p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 9pt; }
+  .cai-left h3 {
+    margin: 0;
+    font-weight: normal; }
+
+.claim-divider {
+  height: 80px;
+  border: solid 1px #445072; }
+
+.cai-right {
+  width: 150px;
+  color: #9799A8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .cai-right hr {
+    width: 75px;
+    border: solid 1px #445072; }
+  .cai-right p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 9pt; }
+  .cai-right h3 {
+    margin: 0;
+    font-weight: normal; }
